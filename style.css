@@ -51,7 +51,7 @@ body {
 .hero {
     width: 90%;
     max-width: 1200px;
-    margin: 40px auto 0;
+    margin: 10px auto 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -304,22 +304,28 @@ body {
 
 @media (max-width: 768px) {
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        right: 0;
-        background: rgb(15, 23, 42);
-        width: 220px;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-    }
+   @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+  }
 
-    .nav-links.show {
-        display: flex;
-    }
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav-links li {
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+}
 
 }
 
