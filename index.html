@@ -1,284 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lea Jaza CV & Portfolio</title>
-    <meta name="description"
-        content="Personal portfolio of Lea Jaza, a Computer & Communications Engineering student showcasing projects, skills, and certifications.">
-    <meta name="keywords" content="Lea Jaza, portfolio, web development, HTML, CSS, JavaScript, networking, CCNA">
-    <meta name="author" content="Lea Jaza">
-
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101b31">
+  <meta name="description" content="Portfolio of Lea Jaza, senior Computer & Communications Engineering student focused on AI applications, automation, and software development.">
+  <meta name="author" content="Lea Jaza">
+  <title>Lea Jaza | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="header">
-        <nav class="navbar">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Lea Jaza - top of page"><span class="brand-mark">LJ</span><span>Lea Jaza<span class="brand-dot">.</span></span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="https://github.com/leajaza" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Senior CCE Student · Aspiring AI Engineer</p>
+        <h1 id="hero-title">Hi, I'm <span>Lea Jaza.</span><br>Building ideas into <em>intelligent applications.</em></h1>
+        <p class="hero-description">I am a Computer &amp; Communications Engineering student at Rafik Hariri University, exploring generative AI, automation, and software development through hands-on projects.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-tags" aria-label="Areas of interest"><span>Generative AI</span><span>Python &amp; APIs</span><span>AI Automation</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-ring">
+          <!-- Keep images/profile.jpeg in your GitHub portfolio repository for this photo to appear. -->
+          <img src="profile_picture.jpeg" alt="Portrait of Lea Jaza" width="340" height="380" loading="eager">
+        </div>
+        <div class="portrait-caption"><span class="status-dot" aria-hidden="true"></span> Learning, building &amp; improving</div>
+      </div>
+    </section>
+    <div class="header-glow" aria-hidden="true"></div>
+  </header>
 
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <main id="main">
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="overline">01 / About me</p><h2>A little about my journey</h2><p>Engineering fundamentals, a growing focus on AI, and a drive to turn concepts into working applications.</p></div>
+      <div class="about-grid">
+        <article class="info-card"><span class="card-icon" aria-hidden="true">✦</span><h3>Who I am</h3><p>A senior Computer &amp; Communications Engineering student at Rafik Hariri University, with expected graduation in 2027.</p></article>
+        <article class="info-card"><span class="card-icon" aria-hidden="true">⌘</span><h3>What I build</h3><p>Projects involving Python, AI-powered workflows, backend APIs, databases, web applications, and connected systems.</p></article>
+        <article class="info-card"><span class="card-icon" aria-hidden="true">↗</span><h3>Where I'm headed</h3><p>Building practical skills in AI engineering, generative AI, and machine learning through continuous study and projects.</p></article>
+      </div>
+      <div class="leadership-banner"><div><span class="tiny-label">Leadership</span><strong>Vice President · RHU AI Club</strong></div><p>Supporting a student community interested in artificial intelligence, learning, and collaboration.</p></div>
+    </section>
 
-        <section class="hero">
-            <div class="hero-text">
-                <p class="small-text">Hello, I'm</p>
-                <h1>Lea Jaza</h1>
-                <h3>Senior Computer & Communications Engineering Student</h3>
-                <p class="hero-description">
-                    I enjoy designing user-friendly interfaces and solving logical problems, with interests in web
-                    development, networking, and AI. I am continuously working on expanding my technical skills and
-                    exploring new areas in the field.
-                </p>
+    <section class="section section-tinted" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="overline">02 / Technical toolkit</p><h2>Skills &amp; technologies</h2><p>Tools I've used in coursework, personal projects, and technical learning.</p></div>
+        <div class="skills-grid">
+          <article class="skill-panel"><h3>Programming &amp; Web</h3><div class="skill-tags"><span>Python</span><span>C++</span><span>C# / .NET</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span></div></article>
+          <article class="skill-panel"><h3>AI &amp; Automation</h3><div class="skill-tags"><span>Gemini API</span><span>Groq API</span><span>n8n</span><span>LLM Integration</span><span>Prompt Design</span><span>AI Workflows</span></div></article>
+          <article class="skill-panel"><h3>Backend &amp; Data</h3><div class="skill-tags"><span>FastAPI</span><span>Streamlit</span><span>Pydantic</span><span>SQLite</span><span>SQL / MySQL</span><span>REST APIs</span><span>Git &amp; GitHub</span></div></article>
+          <article class="skill-panel"><h3>Engineering &amp; Systems</h3><div class="skill-tags"><span>Networking / CCNA</span><span>Embedded Systems</span><span>ESP8266</span><span>Packet Tracer</span><span>Problem Solving</span></div></article>
+        </div>
+      </div>
+    </section>
 
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn primary-btn">View Projects</a>
-                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
-                </div>
-            </div>
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="overline">03 / Selected work</p><h2>Projects I've worked on</h2><p>From AI integrations to engineering applications. Explore my latest work and academic projects below.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-top"><span class="project-number">01 / Featured</span><span class="project-category">AI Application</span></div>
+          <h3>AI-Powered Customer Feedback Analyzer</h3>
+          <p>Built an end-to-end review analysis application with a Streamlit dashboard, FastAPI backend, Gemini-based sentiment classification, structured output validation, and SQLite history.</p>
+          <div class="project-tech"><span>Python</span><span>Gemini</span><span>FastAPI</span><span>Streamlit</span><span>SQLite</span></div>
+          <a class="project-link" href="https://github.com/leajaza/AI-Customer-Feedback-Analyzer" target="_blank" rel="noopener noreferrer">View GitHub repository <span aria-hidden="true">↗</span></a>
+          <p class="project-note">Guided learning project developed while following the Codebasics Python for AI tutorial.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">02</span><span class="project-category">AI / Automation</span></div>
+          <h3>Academic Recovery Agent</h3>
+          <p>Created an AI-assisted academic planning prototype during an agentic AI bootcamp, using Gemini, n8n, Google Sheets, and a web-based interface.</p>
+          <div class="project-tech"><span>Gemini</span><span>n8n</span><span>Google Sheets</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">03</span><span class="project-category">AI / Automation</span></div>
+          <h3>AI-Powered HR Expert Automation</h3>
+          <p>Developed a recruitment workflow that extracts information from PDF resumes, summarizes candidates, compares profiles against job requirements, and stores evaluations in Google Sheets.</p>
+          <div class="project-tech"><span>n8n</span><span>Groq</span><span>Google Drive</span><span>Google Sheets</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">04</span><span class="project-category">AI / Automation</span></div>
+          <h3>AI Financial Copilot</h3>
+          <p>Built a natural-language finance assistant that categorizes income and expenses, saves transaction data, and answers financial questions through an AI-driven workflow.</p>
+          <div class="project-tech"><span>n8n</span><span>Groq</span><span>Google Sheets</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">05</span><span class="project-category">Engineering / In progress</span></div>
+          <h3>Conversational Writing-Style Authentication</h3>
+          <p>Final-year team project exploring linguistic features in Lebanese Arabizi messaging to study writing-style authentication and robustness against AI-generated impersonation.</p>
+          <div class="project-tech"><span>Natural Language Processing</span><span>Feature Extraction</span><span>Research</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">06</span><span class="project-category">Software / Database</span></div>
+          <h3>Restaurant Management System</h3>
+          <p>Developed a database-driven application to manage restaurant orders, employees, inventory, and reporting workflows.</p>
+          <div class="project-tech"><span>C#</span><span>.NET</span><span>MySQL</span></div>
+        </article>
+      </div>
+      <details class="more-projects">
+        <summary>View additional projects <span aria-hidden="true">＋</span></summary>
+        <div class="projects-grid additional-grid">
+          <article class="project-card"><div class="project-top"><span class="project-category">Systems Design</span></div><h3>Hospital Management System</h3><p>Designed and analyzed a hospital management system covering patient records, appointments, inventory, and multiple user roles.</p></article>
+          <article class="project-card"><div class="project-top"><span class="project-category">C++</span></div><h3>Bank Management System</h3><p>Implemented linked-list-based account and transaction handling for deposits, withdrawals, transfers, and history tracking.</p></article>
+          <article class="project-card"><div class="project-top"><span class="project-category">IoT</span></div><h3>Smart Temperature Monitoring</h3><p>Built an ESP8266 and BME280 monitoring system with Telegram notifications and LED-based temperature indicators.</p></article>
+          <article class="project-card"><div class="project-top"><span class="project-category">Networking</span></div><h3>Smart Office Network Design</h3><p>Designed an office network using subnetting, static routing, switches, routers, and wireless connectivity.</p></article>
+          <article class="project-card"><div class="project-top"><span class="project-category">Web Development</span></div><h3>Therapist Booking Website</h3><p>Created a responsive appointment-booking website using HTML, CSS, and JavaScript.</p></article>
+        </div>
+      </details>
+    </section>
 
-            <div class="hero-image">
-                <img src="images/profile.jpeg" alt="Profile Photo" />
-            </div>
-        </section>
-    </header>
+    <section class="section section-tinted" id="education">
+      <div class="container">
+        <div class="section-heading"><p class="overline">04 / Academic background</p><h2>Education &amp; involvement</h2></div>
+        <div class="education-card"><div><span class="tiny-label">2023 – 2027 (expected)</span><h3>Bachelor of Engineering in Computer &amp; Communications Engineering</h3><p>Rafik Hariri University · Lebanon</p><p class="education-details">Coursework and practical experience across programming, networking, databases, embedded systems, and communications engineering.</p></div><div class="education-badge">Senior Year</div></div>
+        <div class="honors-row"><span>✦ Dean's Honor List · Spring 2025–2026</span><span>✦ Vice President · RHU AI Club</span><span>✦ CCE Workshop Presenter / Mentor</span></div>
+      </div>
+    </section>
 
-    <main>
-        <section id="about" class="section">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
-                <div class="card">
-                    <h3>Who I Am</h3>
-                    <p>
-                        I am a 3rd year Computer & Communications Engineering student passionate about technology,
-                        problem solving, and continuous learning.
-                    </p>
-                </div>
+    <section class="section container" id="certificates">
+      <div class="section-heading"><p class="overline">05 / Continuous learning</p><h2>Certificates &amp; training</h2><p>A selection of technical courses, certifications, and workshops.</p></div>
+      <div class="certificates-grid">
+        <article class="certificate-box"><span>Cisco Networking Academy</span><h3>CCNA: Introduction to Networks</h3><p>January 2026</p></article>
+        <article class="certificate-box"><span>Cisco Networking Academy</span><h3>CCNA: Switching, Routing &amp; Wireless Essentials</h3><p>February 2026</p></article>
+        <article class="certificate-box"><span>Cisco Networking Academy</span><h3>CCNA: Enterprise Networking, Security &amp; Automation</h3><p>May 2026</p></article>
+        <article class="certificate-box"><span>MathWorks</span><h3>Machine Learning Onramp</h3><p>February 2026</p></article>
+        <article class="certificate-box"><span>MathWorks</span><h3>Deep Learning Onramp</h3><p>February 2026</p></article>
+        <article class="certificate-box"><span>MathWorks</span><h3>Reinforcement Learning Onramp</h3><p>February 2026</p></article>
+        <article class="certificate-box"><span>RHU IEEE × ACM</span><h3>LeetCode Bootcamp</h3><p>January – February 2025</p></article>
+        <article class="certificate-box"><span>RHU ACM</span><h3>Introduction to Node.js Workshop</h3><p>April 2024</p></article>
+        <article class="certificate-box"><span>National Authority for Science and Research</span><h3>Smart Speed Bump Research Project</h3><p>2019</p></article>
+        <article class="certificate-box"><span>Linguaphone Institute Ltd.</span><h3>Expert English Course</h3><p>April 2024</p></article>
+      </div>
+    </section>
 
-                <div class="card">
-                    <h3>What I Do</h3>
-                    <p>
-                        I work on academic and personal projects related to web development, programming, and technical
-                        problem solving.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>My Goal</h3>
-                    <p>
-                        My goal is to strengthen my technical skills, build useful projects, and grow as a future
-                        engineer in the software and communications field.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="education" class="section alt-section">
-            <h2 class="section-title">Education</h2>
-            <div class="single-card">
-                <h3>Bachelor in Computer & Communications Engineering</h3>
-                <p><strong>University:</strong> Rafik Hariri University</p>
-                <p><strong>Year:</strong> 3rd Year</p>
-                <p><strong>Expected Graduation:</strong>2027</p>
-                <p>
-                    Relevant coursework: Web Programming, Data Structures, Networking, Database Systems, Digital Logic,
-                    Object-Oriented Programming.
-                </p>
-            </div>
-        </section>
-
-        <section id="skills" class="section">
-            <h2 class="section-title">Skills</h2>
-            <p class="section-subtitle">
-                A summary of my technical knowledge and tools.
-            </p>
-
-            <div class="skills-container">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>jQuery</span>
-                <span>Responsive Design</span>
-                <span>C++</span>
-                <span>Python</span>
-                <span>Problem Solving</span>
-                <span>Computer Networking (CCNA)</span>
-                <span>SQL (Databases)</span>
-                <span>Git & GitHub</span>
-                <span>Embedded Systems</span>
-            </div>
-        </section>
-
-        <section id="projects" class="section alt-section">
-            <h2 class="section-title">Projects</h2>
-
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>AI-Powered HR Expert Automation</h3>
-                    <p>
-                        Developed an AI-powered recruitment workflow using n8n, Groq AI, Google Drive, and Google
-                        Sheets.
-                        The system automatically extracts candidate information from PDF resumes, generates professional
-                        summaries,
-                        evaluates applicants against job requirements, and stores candidate profiles and AI-driven
-                        hiring recommendations in Google Sheets.
-                    </p>
-                </div>
-                <div class="project-card">
-                    <h3>AI Financial Copilot</h3>
-                    <p>
-                        Built an AI-powered personal finance assistant using n8n, Groq API, and Google Sheets.
-                        The system automatically extracts and categorizes income and expense transactions from natural
-                        language, stores them in Google Sheets, and answers financial queries through an AI-powered
-                        conversational interface.
-                    </p>
-                </div>
-                <div class="project-card">
-                    <h3>Hospital Management System</h3>
-                    <p>
-                        Designed and analyzed a complete hospital management system to improve patient record handling,
-                        appointment scheduling, and inventory management.
-                        The system integrates multiple user roles including doctors, patients, and administrators, and
-                        focuses on efficient workflow and data organization.
-                    </p>
-                </div>
-
-                <div class="project-card">
-                    <h3>Bank Management System (C++)</h3>
-                    <p>
-                        Developed a bank system using C++ and data structures, implementing linked lists to manage
-                        accounts and transactions.
-                        The system supports operations such as account creation, deposits, withdrawals, transfers, and
-                        transaction history tracking.
-                    </p>
-                </div>
-
-                <div class="project-card">
-                    <h3>Smart Temperature Monitoring System</h3>
-                    <p>
-                        Built an IoT-based system using ESP8266 and BME280 sensor to monitor temperature in real time.
-                        The system sends alerts through a Telegram bot and uses LEDs to indicate temperature levels
-                        based on predefined thresholds.
-                    </p>
-                </div>
-                <div class="project-card">
-                    <h3>Smart Office Network Design</h3>
-                    <p>
-                        Designed and implemented a multi-network office system using static routing and subnetting.
-                        Configured routers, switches, and wireless networks to ensure secure and efficient communication
-                        between departments.
-                    </p>
-                </div>
-                <div class="project-card">
-                    <h3>Therapist Booking Website</h3>
-                    <p>
-                        Developed a responsive web application using HTML, CSS, and JavaScript for booking therapy
-                        sessions.
-                        The website allows users to browse therapists, view availability, and schedule appointments
-                        through an intuitive interface.
-                    </p>
-                </div>
-                <div class="project-card">
-                    <h3>Restaurant Management System</h3>
-                    <p>
-                        Designed and developed a database-driven restaurant management system to handle orders,
-                        inventory, employees, and customer feedback.
-                        The system includes features such as real-time order processing, table management, and financial
-                        reporting using structured database design.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="certificates" class="section alt-section">
-            <h2 class="section-title">Certificates</h2>
-
-            <div class="certificates-container">
-
-                <div class="certificate-box">
-                    <h3>CCNA: Introduction to Networks</h3>
-                    <p><strong>Provider:</strong> Cisco Networking Academy</p>
-                    <p><strong>Date:</strong> January 2026</p>
-                </div>
-                <div class="certificate-box">
-                    <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
-                    <p><strong>Provider:</strong> Cisco Networking Academy</p>
-                    <p><strong>Date:</strong> February 2026</p>
-                </div>
-                <div class="certificate-box">
-                    <h3>CCNA: Enterprise Networking, Security, and Automation</h3>
-                    <p><strong>Provider:</strong> Cisco Networking Academy</p>
-                    <p><strong>Date:</strong> May 2026</p>
-                </div>
-                <div class="certificate-box">
-                    <h3>LeetCode Bootcamp</h3>
-                    <p><strong>Provider:</strong> RHU IEEE x ACM</p>
-                    <p><strong>Date:</strong> January 2025 – February 2025</p>
-                </div>
-
-                <div class="certificate-box">
-                    <h3>Introduction to Node.js Workshop</h3>
-                    <p><strong>Provider:</strong> RHU ACM</p>
-                    <p><strong>Date:</strong> April 2024</p>
-                </div>
-                <div class="certificate-box">
-                    <h3>Machine Learning Onramp</h3>
-                    <p><strong>Provider:</strong> MathWorks Training Services</p>
-                    <p><strong>Date:</strong> February 2026</p>
-                </div>
-
-                <div class="certificate-box">
-                    <h3>Reinforcement Learning Onramp</h3>
-                    <p><strong>Provider:</strong> MathWorks Training Services</p>
-                    <p><strong>Date:</strong> February 2026</p>
-                </div>
-
-                <div class="certificate-box">
-                    <h3>Deep Learning Onramp</h3>
-                    <p><strong>Provider:</strong> MathWorks Training Services</p>
-                    <p><strong>Date:</strong> February 2026</p>
-                </div>
-                <div class="certificate-box">
-                    <h3>Smart Speed Bump Research Project</h3>
-                    <p><strong>Provider:</strong> National Authority for Science and Research</p>
-                    <p><strong>Date:</strong> 2019</p>
-                </div>
-
-                <div class="certificate-box">
-                    <h3>Expert English Course</h3>
-                    <p><strong>Provider:</strong> Linguaphone Institute Ltd.</p>
-                    <p><strong>Date:</strong> April 2024</p>
-                </div>
-
-            </div>
-        </section>
-        <section id="contact" class="section contact-section">
-            <h2 class="section-title">Contact</h2>
-            <p class="section-subtitle">
-                Feel free to reach out for collaboration, academic projects, or opportunities.
-            </p>
-
-            <div class="contact-box">
-                <p><strong>Email:</strong> <a href=""></a>leajaza@gmail.com</p>
-                <p><strong>Location:</strong> Beirut, Lebanon</p>
-                <p><strong>LinkedIn:</strong><a
-                        href="https://www.linkedin.com/in/lea-jaza-27737330b?utm_source=share_via&utm_content=profile&utm_medium=member_ios">linkedin.com/in/lea-jaza</a>
-                </p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>&copy;Lea Jaza. All rights reserved.</p>
-    </footer>
-
-
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content"><p class="overline">06 / Contact</p><h2>Let's connect.</h2><p>I'm interested in learning opportunities, technical collaboration, and the intersection of AI and real-world applications.</p><div class="contact-actions"><a class="btn btn-primary" href="mailto:leajaza@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://www.linkedin.com/in/lea-jaza-27737330b" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://github.com/leajaza" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div><p class="contact-location">Beirut, Lebanon</p></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>© 2026 Lea Jaza</span><a href="#top">Back to top ↑</a></div></footer>
 </body>
-
 </html>
